@@ -4,18 +4,17 @@ import com.bancocdi.java.domain.AccountType;
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         final WeldContainer container = new Weld().initialize();
         final Application application = container.select(Application.class).get();
         start(application);
     }
     
-    private static void start(Application application) throws IOException {
+    private static void start(Application application) {
         int option;
         var sc = new Scanner(System.in);
         System.out.println("\tBem-vindo ao banco!");
@@ -40,7 +39,7 @@ public class Main {
         }while (option>0);
     }
 
-    private static void login(Application application) throws IOException {
+    private static void login(Application application) {
         var sc = new Scanner(System.in);
         var user = application.getUser(sc);
         if (user == null){
@@ -51,7 +50,7 @@ public class Main {
         }
     }
 
-    private static void userLogged(Application application, String userCpf) throws IOException {
+    private static void userLogged(Application application, String userCpf) {
         System.out.println("\n\tBem vindo!");
         int opt;
         var sc = new Scanner(System.in);
@@ -80,7 +79,7 @@ public class Main {
     }
 
 
-    private static String accountLogin(String userCpf, Application application) throws IOException {
+    private static String accountLogin(String userCpf, Application application) {
         System.out.println("Selecione o tipo da conta\n1 - Conta Simples\n2 - Conta Especial\n3 - Conta Poupança");
         var sc = new Scanner(System.in);
         var type = sc.nextInt();
