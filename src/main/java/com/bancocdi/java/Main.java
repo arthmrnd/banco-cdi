@@ -13,11 +13,8 @@ public class Main {
         final WeldContainer container = new Weld().initialize();
         final Application application = container.select(Application.class).get();
         start(application);
-        //TODO GET RIDE OF THE TRASH ON THE CODE
-        //TODO ENHANCE THE ENTIRE APPLICATION
-        
     }
-
+    
     private static void start(Application application) throws IOException {
         int option;
         var sc = new Scanner(System.in);
