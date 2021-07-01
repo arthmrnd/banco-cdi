@@ -1,0 +1,12 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ääéŠşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ïÒÚ‚ûÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ÇŠ¹Üøÿÿÿÿ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(Ë¦š­
+h
+java:S2677E"LUse or store the value returned from "readLine" instead of throwing it away.(¯ÎÜ68Ñîš¦/
+h
+java:S2677F"LUse or store the value returned from "readLine" instead of throwing it away.(¯ÎÜ68í„‘š¦/
+T	java:S106H"9Replace this use of System.out or System.err by a logger.(ûñÂs8Ïéš¦/
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(Æ‚›Ûúÿÿÿÿ8Ïéš¦/
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(¶–Ãşÿÿÿÿ8È‚š¦/

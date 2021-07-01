@@ -1,0 +1,5 @@
+
+a
+java:S2677""LUse or store the value returned from "readLine" instead of throwing it away.(¯ÎÜ6
+M	java:S106+"9Replace this use of System.out or System.err by a logger.(Ò£Ş?
+M	java:S106="9Replace this use of System.out or System.err by a logger.(ê¾
